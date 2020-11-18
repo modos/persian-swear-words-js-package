@@ -9,11 +9,16 @@ thanks to : https://github.com/amirshnll <br>
 
 link on npm : https://www.npmjs.com/package/@modos.m98/persian-swear-words
 
-<h3>install</h3>
+<h3>Install</h3>
 <code>npm i @modos.m98/persian-swear-words</code>
 
-<h3>import</h3>
+<h3>Import</h3>
 <code>const swear = require("@modos.m98/persian-swear-words");</code>
 
 <h3>Usage</h3>
-<script src="https://gist.github.com/modos/fb450a19d9da1c6d6cfbc2462b8687e5.js"></script>
+<a href="https://gist.github.com/modos/fb450a19d9da1c6d6cfbc2462b8687e5">Gist</a><br>
+
+<code>
+const swear = require("@modos.m98/persian-swear-words");
+console.log(swear.is_bad("گوز")) // if it's bad return true otherwise return false swear.remove_word("چس") // remove a word from data swear.add_word("modos is here") // add a word into data
+</code>
