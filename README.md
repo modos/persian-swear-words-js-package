@@ -20,13 +20,13 @@ link on npm : https://www.npmjs.com/package/@modos.m98/persian-swear-words
 
 <code>
 const swear = require("@modos.m98/persian-swear-words");
- </code>
+ </code><br>
 <code>  
 console.log(swear.is_bad("گوز")) // if it's bad return true otherwise return false
-</code>  
+</code><br>
 <code> 
 swear.remove_word("چس") // remove a word from data
-</code>  
+</code>  <br>
 <code>
 swear.add_word("modos is here") // add a word into data
 </code>
