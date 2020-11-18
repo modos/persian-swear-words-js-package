@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "name": "@modos.m98/persian-swear-words",
     "version": "2.2.2",
@@ -12,3 +13,19 @@
         "filter"
     ]
 }
+=======
+{
+    "name": "@modos.m98/persian-swear-words",
+    "version": "2.2.2",
+    "description": "filter persian swear words",
+    "license": "MIT",
+    "repository": "modos/persian-swear-words-js-package",
+    "main": "index.js",
+    "keywords": [
+        "persian",
+        "swear",
+        "words",
+        "filter"
+    ]
+}
+>>>>>>> ebb521e0ea379282cb0183734e4ba2e9f4270ae8

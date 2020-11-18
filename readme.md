@@ -22,10 +22,17 @@ link on npm : https://www.npmjs.com/package/@modos.m98/persian-swear-words
 const swear = require("@modos.m98/persian-swear-words");
  </code><br>
 <code>  
+<<<<<<< HEAD
 console.log(swear.is_bad("value")) // if it's bad return true otherwise return false
 </code><br>
 <code> 
 swear.remove_word("value") // remove a word from data
+=======
+console.log(swear.is_bad("گوز")) // if it's bad return true otherwise return false
+</code><br>
+<code> 
+swear.remove_word("چس") // remove a word from data
+>>>>>>> ebb521e0ea379282cb0183734e4ba2e9f4270ae8
 </code>  <br>
 <code>
 swear.add_word("modos is here") // add a word into data
