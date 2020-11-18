@@ -22,15 +22,15 @@ link on npm : https://www.npmjs.com/package/@modos.m98/persian-swear-words
 const swear = require("@modos.m98/persian-swear-words");
  </code><br>
 <code>  
-console.log(swear.is_bad("value")) // if it's bad return true otherwise return false
+console.log(swear.is_bad(value)) // if it's bad return true otherwise return false
 </code><br>
 <code> 
 swear.remove_word("خر") // remove a word from data
 
-console.log(swear.is_bad("گوز")) // if it's bad return true otherwise return false
+console.log(swear.is_bad("خر")) // if it's bad return true otherwise return false
 </code><br>
 <code> 
-swear.remove_word("چس") // remove a word from data
+swear.remove_word("بی ناموس") // remove a word from data
 </code>  <br>
 <code>
 swear.add_word("modos is here") // add a word into data
