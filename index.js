@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 let words =  [
     "چس",
     "گوز",
@@ -609,6 +608,4 @@ const add_word = function (value) {
         words.push(value)
     }
 }
-
->>>>>>> ebb521e0ea379282cb0183734e4ba2e9f4270ae8
 module.exports = {is_bad, remove_word, add_word}
