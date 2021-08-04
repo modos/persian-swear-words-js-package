@@ -5,33 +5,50 @@
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Fmodos%2Fpersian-swear-words-js-package)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fmodos%2Fpersian-swear-words-js-package)
 
 <h1>a javascript package for filter persian swear words</h1> <br>
-thanks to : https://github.com/amirshnll <br>
+Thanks to : https://github.com/amirshnll <br>
 
-link on npm : https://www.npmjs.com/package/@modos.m98/persian-swear-words
+Link on npm : https://www.npmjs.com/package/@modos.m98/persian-swear-words
 
-<h3>Install</h3>
-<code>npm i @modos.m98/persian-swear-words</code>
+## Install
 
-<h3>Import</h3>
-<code>const swear = require("@modos.m98/persian-swear-words");</code>
+```
+npm i @modos.m98/persian-swear-words
+```
 
-<h3>Usage</h3>
-<a href="https://gist.github.com/modos/fb450a19d9da1c6d6cfbc2462b8687e5">Gist</a><br>
+## Import
 
-<code>
-const swear = require("@modos.m98/persian-swear-words");
- </code><br>
-<code>  
-console.log(swear.is_bad(value)) // if it's bad return true otherwise return false
-</code><br>
-<code> 
-swear.remove_word("خر") // remove a word from data
+```
+const swear = require("@modos.m98/persian-swear-words")
+```
 
-console.log(swear.is_bad("خر")) // if it's bad return true otherwise return false
-</code><br>
-<code> 
-swear.remove_word("بی ناموس") // remove a word from data
-</code>  <br>
-<code>
-swear.add_word("modos is here") // add a word into data
-</code>
+## Usage
+<a href="https://gist.github.com/modos/fb450a19d9da1c6d6cfbc2462b8687e5">Gist</a>
+
+<br>
+
+### 🔸 Check a string contains bad word
+<br>
+
+```
+let text = 'علی خر است'
+swear.hasSwear(text) /// returns true
+```
+
+### 🔸 Check a word is bad or not
+<br>
+
+```
+let text = 'کسکش'
+swear.is_bad(text) /// returns true
+
+let text2 = 'سلام'
+swear.is_bad(text2) /// returns false
+```
+
+### 🔸 Add word to list
+<br>
+
+```
+let text = 'تخم'
+swear.add_word(text)
+```

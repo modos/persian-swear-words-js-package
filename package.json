@@ -1,6 +1,6 @@
 {
     "name": "@modos.m98/persian-swear-words",
-    "version": "2.2.3",
+    "version": "2.3.0",
     "description": "filter persian swear words",
     "license": "MIT",
     "repository": "modos/persian-swear-words-js-package",
@@ -12,4 +12,3 @@
         "filter"
     ]
 }
-
