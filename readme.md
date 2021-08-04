@@ -52,3 +52,11 @@ swear.is_bad(text2) /// returns false
 let text = 'تخم'
 swear.add_word(text)
 ```
+
+### 🔸 Remove word from list
+<br>
+
+```
+let text = 'تخم'
+swear.remove_word(text)
+```
